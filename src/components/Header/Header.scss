@@ -1,0 +1,55 @@
+.header {
+    margin-bottom: 50px;
+    &> .container {
+        width: 1110px;
+        height: 28px;
+    }
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__logo {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #000;
+        margin-right: 146px;
+    }
+    &__nav {
+        width: 168px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 402px;
+    }
+    &__link {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        color: #000;
+        text-decoration: none;
+    }
+    &__link:active {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        color: blue;
+        text-decoration: none;
+    }
+    &__contact {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    &__telephone {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        color: #000;
+    }
+}
